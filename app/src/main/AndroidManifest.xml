@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alberto.medaap2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pill_38165"
+        android:label="@string/nombreApp"
+        android:roundIcon="@drawable/pill_38165"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InicialActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlertActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InsertManualActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InsertCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InsertActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".utilities.CaptureActivityPortrait"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <receiver
+            android:name=".receivers.AlarmReceiver"
+            android:process=":remote"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

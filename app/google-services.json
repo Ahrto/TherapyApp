@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "31501329842",
+    "firebase_url": "https://medaap-d9dc3.firebaseio.com",
+    "project_id": "medaap-d9dc3",
+    "storage_bucket": "medaap-d9dc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31501329842:android:82632bf69c03fe0f9670ab",
+        "android_client_info": {
+          "package_name": "com.alberto.medaap2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31501329842-7kvaebsv5ofajd2s1pecs9o6vk1of7rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoRKaozQsEn65KI0xSViAKXRJ9ztFEvx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31501329842-7kvaebsv5ofajd2s1pecs9o6vk1of7rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

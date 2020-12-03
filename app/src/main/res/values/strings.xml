@@ -1,0 +1,102 @@
+<resources>
+
+    <!--    Botones-->
+    <string name="btnRegisterInicial">Registrarse</string>
+    <string name="btnLogin">Iniciar sesión</string>
+    <string name="btnDisclaimer">Lo entiendo</string>
+    <string name="btnRegisterCreateUser">Registrarse</string>
+    <string name="btnIntroducirMed">Introducir Medicamento</string>
+    <string name="btnLogOut">Cerrar Sesión</string>
+    <string name="btnBarCode">Escanear Código</string>
+    <string name="btnCode">Introducir Código Nacional</string>
+    <string name="btnManual">Introducir Manualmente</string>
+    <string name="btnBuscar">Buscar Medicamento</string>
+    <string name="btnAnadir">Añadir Medicamento</string>
+    <string name="btnHora">Duracion del tratamiento en días</string>
+    <string name="btnRetryCode">Introducir el código de nuevo</string>
+    <string name="btnRetryManual">Introducir el código manualmente</string>
+    <string name="a_adir_nombre_manualmente">Añadir Nombre Manualmente</string>
+    <string name="a_adir">Añadir</string>
+    <string name="consultar_prospecto">Consultar prospecto</string>
+    <string name="establecer_tratamiento_de_nuevo">Establecer tratamiento de nuevo</string>
+    <string name="borrar_medicamento">Borrar medicamento</string>
+    <string name="volver_a_mi_lista">Volver a mi lista</string>
+
+    <!--    Hint-->
+    <string name="hintEmail">Email</string>
+    <string name="hintName">Nombre</string>
+    <string name="hintPsw">Contraseña</string>
+    <string name="hintEtCode">Introducir Código Nacional</string>
+    <string name="hintEtInsertManual">Introducir nombre del medicamento</string>
+    <string name="d_as">Días</string>
+    <string name="horas">Horas</string>
+    <string name="inicio">Inicio</string>
+
+    <!--    Alert-->
+    <string name="titleDisclaimer">Atención:</string>
+    <string name="txtDisclaimer">-Recuerda seguir los consejos de tu médico.\n-No te automediques.\n-No te olvides de entrar en Ajustes y quitar las restricciones de batería, si fuese necesario.\n-El desarrollador no se hace responsable de un mal uso de la aplicación.</string>
+    <string name="titleEmailCreateUser">Ha ocurrido algo…</string>
+    <string name="textEmailCreateUser">Introduce un email válido</string>
+    <string name="txtPswCreateUser">Introduce una contraseña</string>
+    <string name="txtNameCreateUser">Introduce un nombre de usuario</string>
+    <string name="txtFailCreateUser">Asegúrate de que: \n-La contraseña tenga como mínimo 6 caracteres.\n-La cuenta no esté ya creada.</string>
+    <string name="titleAlertFalta">Falta algo…</string>
+    <string name="txtFailLogin">Asegúrate de que: \n-El email sea el corecto.\n-La contraseña sea la correcta.</string>
+    <string name="emailLogin">Introduce un email</string>
+    <string name="pswLogin">Introduce tu contraseña</string>
+    <string name="insertCodeTitleAlert">Falta algo…</string>
+    <string name="insertCodeCn">Introduce el código del medicamento</string>
+    <string name="insertManualName">Introduce el nombre del medicamento</string>
+    <string name="txtCompletaCampos">Completa todos los campos</string>
+    <string name="atencion">ATENCION:</string>
+    <string name="laFechaDebeSerPosterior">La fecha de inicio del tratamiento debe ser posterior a la actual.</string>
+    <string name="eliminarTratamiento">¿Deseas eliminar el medicamento?</string>
+    <string name="cancelar">Cancelar</string>
+
+
+    <!--    Varios-->
+    <string name="desarrollado_por_alberto_hern_ndez_rodr_guez">Desarrollado por Alberto Hernández Rodríguez</string>
+    <string name="nombreApp">TherapyApp</string>
+    <string name="medicamento_no_encontrado">Medicamento no encontrado</string>
+    <string name="introducir_de_nuevo">Introducir de nuevo</string>
+
+    <!--    Text-->
+    <string name="txtProspecto">¿Dónde puedo encontrar el Código Nacional del Medicamento?</string>
+    <string name="dondeCodigoNacional">El Código Nacional del Medicamento es un número de seis cifras que se encuentra sobre el código de barras o en la parte frontal del envase.</string>
+    <string name="ok">OK</string>
+    <string name="wellcomeUser">Bienvenid@</string>
+    <string name="wellcome">Bienvenid@ a TherapyApp</string>
+    <string name="d_as_tratamiento">Durante (días)</string>
+    <string name="periodo_horas">Cada (horas)</string>
+    <string name="hora_de_inicio">Hora de inicio</string>
+    <string name="fecha_inicio">Fecha de inicio</string>
+    <string name="fecha">Fecha</string>
+    <string name="estableceTuTratamiento">Establece tu tratamiento</string>
+    <string name="tratamientoAgregado">Tratamiento Agregado</string>
+    <string name="recuerda">Recuerda: </string>
+    <string name="tomar">Tomar </string>
+    <string name="cada">cada</string>
+    <string name="horasMinus">horas</string>
+    <string name="nombreDelMedicamentoDetails">Nombre del medicamento:</string>
+    <string name="durante">Durante</string>
+    <string name="dias">días</string>
+    <string name="cadaMayus">Cada</string>
+    <string name="hora_s">hora/s.</string>
+    <string name="duranteMinus">durante</string>
+    <string name="laPrimeraTomaEs">La primera toma es a las</string>
+    <string name="teTocaUnaToma">¡Te toca una toma!</string>
+    <string name="tratamientoFinalizado">Tratamiento finalizado</string>
+    <string name="hasCompletadoElTratamiento">Has completado el tratamiento de</string>
+    <string name="tratamientoEnSeguimiento">Tratamiento en seguimiento</string>
+
+    <!--    Toast-->
+    <string name="lecturaCanceladaScaner">Lectura cancelada</string>
+    <string name="noSeHaEncontrado">No se ha encontrado el medicamento</string>
+    <string name="introduceloDeNuevo">No se ha encontrado el medicamento\nIntrodúcelo de nuevo</string>
+
+    <!--    Preferences-->
+    <string name="prefs_file" translatable="false">com.alberto.medaap2.PREFERENCE_FILE_KEY</string>
+
+
+
+</resources>
