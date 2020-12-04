@@ -3,3 +3,6 @@ Application for Android devices for the management and control of medical treatm
 
 Aplicación para dispositivos Android para la gestión y control de tratamientos médicos. Incluye archivo APK.
 
+https://raw.githubusercontent.com/ahrto/TherapyApp/master/assets/consulta_prospecto.png
+
+
