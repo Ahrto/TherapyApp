@@ -5,4 +5,6 @@ Aplicación para dispositivos Android para la gestión y control de tratamientos
 
 https://raw.githubusercontent.com/ahrto/TherapyApp/master/assets/consulta_prospecto.png
 
+![Alt text](/assets/dateMed.png?raw=true "Optional Title")
+
 
